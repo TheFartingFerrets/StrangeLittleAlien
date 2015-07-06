@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 410d7beac4e7ea2419e0b795f4343c2b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Block
+    21300002: Speeder
+    21300004: Target
+    21300006: Spring
+    21300008: PortalIn
+    21300010: PortalOut
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Block
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 765
+        width: 319
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 28, y: 22, z: 31, w: 25}
+    - name: Speeder
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 765
+        width: 317
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Target
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 680
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spring
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 579
+        width: 289
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PortalIn
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 151
+        width: 338
+        height: 337
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PortalOut
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 151
+        width: 336
+        height: 337
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
