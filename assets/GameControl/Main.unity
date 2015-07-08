@@ -1592,18 +1592,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldType: 1
-  story: {fileID: 0}
   howTo: {fileID: 2050604118}
-  Maths_Story: "mATHW_STORY\t"
-  Physics_Story: PHYSICS_STORY
-  Reflex_Story: REFLEX_STORY
-  Collect_Story: cOLLECT_sTORY
-  Maths_How_To: "MATHS HOW TO\t"
-  Physics_How_To: 'PHYSISCS SHOW '
-  Reflex_How_To: 'REFLEX HOW
-
-'
-  Collect_How_To: COLLECT HOW
+  Maths_How_To: Help Squelch calculate space travel by placing the correct number
+    into the ships compter sytems!
+  Physics_How_To: Help the good critters of Squelch's ship find their way back to
+    the Ships core by creating a path using a range of blocks.
+  Reflex_How_To: Bad critters are infecting the local farm lands! Quickly bop them
+    on the head!
+  Collect_How_To: The fuel from the ship has landed in a nearby field, maneuver Squelch
+    around the maze and collect as much fuel as possible.
 --- !u!114 &124446902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1978,7 +1975,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HOW TO PLAY
+  m_Text: How to Play!
 --- !u!222 &157805016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4831,9 +4828,9 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 988352672}
   m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &988827061
 GameObject:
@@ -6070,7 +6067,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Help get the Alien Home!
+  m_Text: Help get Squelch Home!
 --- !u!222 &1189005242
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6341,18 +6338,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldType: 2
-  story: {fileID: 0}
   howTo: {fileID: 2050604118}
-  Maths_Story: "mATHW_STORY\t"
-  Physics_Story: PHYSICS_STORY
-  Reflex_Story: REFLEX_STORY
-  Collect_Story: cOLLECT_sTORY
-  Maths_How_To: "MATHS HOW TO\t"
-  Physics_How_To: 'PHYSISCS SHOW '
-  Reflex_How_To: 'REFLEX HOW
-
-'
-  Collect_How_To: COLLECT HOW
+  Maths_How_To: Help Squelch calculate space travel by placing the correct number
+    into the ships compter sytems!
+  Physics_How_To: Help the good critters of Squelch's ship find their way back to
+    the Ships core by creating a path using a range of blocks.
+  Reflex_How_To: Bad critters are infecting the local farm lands! Quickly bop them
+    on the head!
+  Collect_How_To: The fuel from the ship has landed in a nearby field, maneuver Squelch
+    around the maze and collect as much fuel as possible.
 --- !u!114 &1305023712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7513,18 +7507,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldType: 3
-  story: {fileID: 0}
   howTo: {fileID: 2050604118}
-  Maths_Story: "mATHW_STORY\t"
-  Physics_Story: PHYSICS_STORY
-  Reflex_Story: REFLEX_STORY
-  Collect_Story: cOLLECT_sTORY
-  Maths_How_To: "MATHS HOW TO\t"
-  Physics_How_To: 'PHYSISCS SHOW '
-  Reflex_How_To: 'REFLEX HOW
-
-'
-  Collect_How_To: COLLECT HOW
+  Maths_How_To: Help Squelch calculate space travel by placing the correct number
+    into the ships compter sytems!
+  Physics_How_To: Help the good critters of Squelch's ship find their way back to
+    the Ships core by creating a path using a range of blocks.
+  Reflex_How_To: Bad critters are infecting the local farm lands! Quickly bop them
+    on the head!
+  Collect_How_To: The fuel from the ship has landed in a nearby field, maneuver Squelch
+    around the maze and collect as much fuel as possible.
 --- !u!114 &1559643958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8061,8 +8052,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1882464909}
   m_RootOrder: 4
-  m_AnchorMin: {x: .0522004627, y: .0887502581}
-  m_AnchorMax: {x: .947799563, y: .768749833}
+  m_AnchorMin: {x: .0318789557, y: .0731252655}
+  m_AnchorMax: {x: .968121052, y: .784374833}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
@@ -8098,7 +8089,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 25195bc426b73b84982bdb46a9fd16b4, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 1
@@ -8106,11 +8097,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Plussie has crash landed on Earth and has lost the ability to fix his ship!
-
-
-    Help Plussie return to the stars by completeing a series of challenging and engaging
-    mini games!'
+  m_Text: "Squelch was travelling the galaxy, looking for something fun to do - he
+    was bored of his little planet.\n\nAll of a sudden, there was a loud bang in his
+    spaceship, and he lost control. He fell from the starry sky and crash landed on
+    the blue and green planet, Earth!\n\nSquelch survived the crash, but his poor
+    ship was badly broken! Bad critters from his planet had infested his ship and
+    destroyed it. \n\nNow he needs to help the humans of Earth to fix his ship. Only
+    then, can he finally go back home."
 --- !u!222 &1710093018
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8858,7 +8851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Sprite: {fileID: 21300002, guid: fa0c6fe39e90ba44395b2e00e1ba14a7, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 5766747920d45b9488097e7f5f3ffead, type: 3}
   m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -9508,18 +9501,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WorldType: 0
-  story: {fileID: 0}
   howTo: {fileID: 2050604118}
-  Maths_Story: "mATHW_STORY\t"
-  Physics_Story: PHYSICS_STORY
-  Reflex_Story: REFLEX_STORY
-  Collect_Story: cOLLECT_sTORY
-  Maths_How_To: "MATHS HOW TO\t"
-  Physics_How_To: PHYSICS WILL GO HERE HAHAHHA
-  Reflex_How_To: 'REFLEX HOW
-
-'
-  Collect_How_To: COLLECT HOW
+  Maths_How_To: Help Squelch calculate space travel by placing the correct number
+    into the ships compter sytems!
+  Physics_How_To: Help the good critters of Squelch's ship find their way back to
+    the Ships core by creating a path using a range of blocks.
+  Reflex_How_To: Bad critters are infecting the local farm lands! Quickly bop them
+    on the head!
+  Collect_How_To: The fuel from the ship has landed in a nearby field, maneuver Squelch
+    around the maze and collect as much fuel as possible.
 --- !u!114 &2132956923
 MonoBehaviour:
   m_ObjectHideFlags: 0
