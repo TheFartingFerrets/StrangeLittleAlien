@@ -130,6 +130,15 @@ public class GameController : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine("ToWorldSelect");
     }
+
+    public void SoftWorldSelect()
+    {
+        WorldPrefix = "None";
+        LevelID = 0;
+        GameObject.FindObjectOfType<LevelSelectWindow>().GetComponent<Window>().Toggle(false);
+        GameObject.FindObjectOfType<LevelSelectWindow>().ForceClear();
+        GameControlState = GameState.WorldSelect;
+    }
     IEnumerator ToLevelSelect()
     {
         Application.LoadLevel("Main");
@@ -207,10 +216,18 @@ public class GameController : MonoBehaviour
     {
         GameControlState = GameState.Loading;
 
-        LevelID++;
-        Debug.Log("Loading next level" + WorldPrefix + "_" + LevelID);
-        StopAllCoroutines();
-        Application.LoadLevel(WorldPrefix + "_" + LevelID);
+        if( LevelID >= 10)
+        {
+            return;
+        }
+        else
+        {
+            LevelID++;
+            Debug.Log("Loading next level" + WorldPrefix + "_" + LevelID);
+
+            StopAllCoroutines();
+            Application.LoadLevel(WorldPrefix + "_" + LevelID);
+        }
     }
     public void QuitApp()
     {

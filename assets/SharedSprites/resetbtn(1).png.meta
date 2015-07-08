@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 779ac12060294424886d827e18732657
+timeCreated: 1436327848
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: resetbtn(1)_0
@@ -21,6 +23,9 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
@@ -31,6 +36,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
@@ -53,6 +59,8 @@ TextureImporter:
         height: 78
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 26, y: 36, z: 22, w: 36}
+      border: {x: 26, y: 36, z: 22, w: 38}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

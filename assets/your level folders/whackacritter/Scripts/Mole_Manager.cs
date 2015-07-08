@@ -33,8 +33,7 @@ public class Mole_Manager : MonoBehaviour {
 		
 	void Update () {
 
-
-		//if Game isn't End,
+        //if Game isn't End,
 		if(limitTime>=0 && End==false && Play==true){
 			GameTimer.StartTimer();
 			catchcount_txt.text = string.Format("{0}",Bed_Count);   //Write CatchCount to GUIText.
@@ -49,7 +48,7 @@ public class Mole_Manager : MonoBehaviour {
 			Game_End();	
 			GameObject.Find("CompleteWindow").GetComponent<Window>().Open();
 			GameTimer.StopTimer();
-			levelControl.GetComponent<LevelController>().CompleteLevel ();
+			levelControl.GetComponent<ReflexLevelController>().CompleteLevel ();
 		}
 	}
 
@@ -57,8 +56,8 @@ public class Mole_Manager : MonoBehaviour {
     public void GO()
     {
         Play = true;
-        GetComponent<AudioSource>().clip = GoSound;
-        GetComponent<AudioSource>().Play();
+        //GetComponent<AudioSource>().clip = GoSound;
+        //GetComponent<AudioSource>().Play();
     }
 
     //Function from Mole Script.

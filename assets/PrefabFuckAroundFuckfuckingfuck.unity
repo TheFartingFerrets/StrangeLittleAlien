@@ -97,7 +97,7 @@ GameObject:
   - 224: {fileID: 195712804}
   - 222: {fileID: 195712806}
   - 114: {fileID: 195712805}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Backer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 28c41d100231ed046a952ba61f6ef5c7, type: 3}
+    m_Font: {fileID: 12800000, guid: 25195bc426b73b84982bdb46a9fd16b4, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 1
@@ -384,7 +384,7 @@ GameObject:
   - 222: {fileID: 815245678}
   - 114: {fileID: 815245677}
   - 114: {fileID: 815245676}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Sprite: {fileID: 21300000, guid: 779ac12060294424886d827e18732657, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -503,7 +503,7 @@ GameObject:
   - 222: {fileID: 835556539}
   - 114: {fileID: 835556538}
   - 114: {fileID: 835556537}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1440770647}
-        m_MethodName: ExitLevel
+        m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -597,9 +597,9 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Sprite: {fileID: 21300000, guid: 779ac12060294424886d827e18732657, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
-  m_FillCenter: 0
+  m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
@@ -856,7 +856,7 @@ GameObject:
   - 225: {fileID: 1440770649}
   - 114: {fileID: 1440770648}
   - 114: {fileID: 1440770647}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CompleteWindow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -937,7 +937,7 @@ GameObject:
   - 222: {fileID: 1488016766}
   - 114: {fileID: 1488016765}
   - 114: {fileID: 1488016764}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Sprite: {fileID: 21300000, guid: 779ac12060294424886d827e18732657, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1055,7 +1055,7 @@ GameObject:
   - 224: {fileID: 1545534739}
   - 222: {fileID: 1545534741}
   - 114: {fileID: 1545534740}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1095,7 +1095,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 28c41d100231ed046a952ba61f6ef5c7, type: 3}
+    m_Font: {fileID: 12800000, guid: 25195bc426b73b84982bdb46a9fd16b4, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 1
@@ -1164,7 +1164,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 28c41d100231ed046a952ba61f6ef5c7, type: 3}
+    m_Font: {fileID: 12800000, guid: 25195bc426b73b84982bdb46a9fd16b4, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 1
@@ -1234,7 +1234,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Sprite: {fileID: 21300000, guid: 518068e217dce934f945f91381243295, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1513,7 +1513,7 @@ GameObject:
   - 222: {fileID: 1842632626}
   - 114: {fileID: 1842632625}
   - 114: {fileID: 1842632624}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Objectives
   m_TagString: Untagged
   m_Icon: {fileID: 0}

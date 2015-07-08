@@ -39,6 +39,7 @@ public class Moveable : MonoBehaviour
         if (CanMove == true)
         {
             Vector2 touchPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            transform.position = touchPosition - DragOffset;
             GetComponent<Rigidbody2D>().MovePosition(touchPosition - DragOffset);
         }
     }

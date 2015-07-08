@@ -4,15 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - LevelController
   - Moveable
   - Roller
   - LevelControl
   - Editor
+  - Retry
+  - PickUp
   - int_B
   - Sum
   - Enemy
-  - PickUp
   - int_A
   layers:
   - Default

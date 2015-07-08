@@ -53,7 +53,7 @@ public class PhysicsEditor : MonoBehaviour
 
     public void RemoveItem()
     {
-        PhysicsMoveableBank PMB = GameObject.FindGameObjectWithTag("LevelControl").GetComponent<PhysicsMoveableBank>();
+        PhysicsMoveableBank PMB = GameObject.FindGameObjectWithTag("LevelController").GetComponent<PhysicsMoveableBank>();
 
         MoveableType mt = Target.GetComponent<Moveable>().MoveType;
 

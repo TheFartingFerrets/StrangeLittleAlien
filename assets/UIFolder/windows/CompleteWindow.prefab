@@ -78,7 +78,7 @@ GameObject:
   - 224: {fileID: 22461328}
   - 222: {fileID: 22261330}
   - 114: {fileID: 11461318}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - 222: {fileID: 22261332}
   - 114: {fileID: 11461322}
   - 114: {fileID: 11461320}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ GameObject:
   - 225: {fileID: 22561346}
   - 114: {fileID: 11461326}
   - 114: {fileID: 11479474}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CompleteWindow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   - 222: {fileID: 22261340}
   - 114: {fileID: 11461338}
   - 114: {fileID: 11461336}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ GameObject:
   - 222: {fileID: 22261346}
   - 114: {fileID: 11461346}
   - 114: {fileID: 11461344}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   - 224: {fileID: 22473150}
   - 222: {fileID: 22273150}
   - 114: {fileID: 11473150}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Backer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   - 222: {fileID: 22279468}
   - 114: {fileID: 11479458}
   - 114: {fileID: 11479472}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Objectives
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 28c41d100231ed046a952ba61f6ef5c7, type: 3}
+    m_Font: {fileID: 12800000, guid: 25195bc426b73b84982bdb46a9fd16b4, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 1
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 28c41d100231ed046a952ba61f6ef5c7, type: 3}
+    m_Font: {fileID: 12800000, guid: 25195bc426b73b84982bdb46a9fd16b4, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 1
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Sprite: {fileID: 21300000, guid: 518068e217dce934f945f91381243295, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 28c41d100231ed046a952ba61f6ef5c7, type: 3}
+    m_Font: {fileID: 12800000, guid: 25195bc426b73b84982bdb46a9fd16b4, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 1
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Sprite: {fileID: 21300000, guid: 779ac12060294424886d827e18732657, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -495,7 +495,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11479474}
-        m_MethodName: ExitLevel
+        m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -521,9 +521,9 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Sprite: {fileID: 21300000, guid: 779ac12060294424886d827e18732657, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
-  m_FillCenter: 0
+  m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Sprite: {fileID: 21300000, guid: 779ac12060294424886d827e18732657, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1115,9 +1115,9 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 161334}
   m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1001 &100100000
 Prefab:

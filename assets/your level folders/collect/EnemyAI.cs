@@ -39,7 +39,8 @@ public class EnemyAI : MonoBehaviour
 	{
 		if (other.gameObject.tag == "Player") 
 		{
-			GameController.Current.ExitToLevelSelect();
+            GameController.Current.ResetLevel();
+            //GameController.Current.ExitToLevelSelect();
 		}
 	}
 }

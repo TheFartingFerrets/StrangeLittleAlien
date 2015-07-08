@@ -5,8 +5,9 @@ public class WorldSelectBack : MonoBehaviour
 {
     public void BackToWorldSelect()
     {
-		this.GetComponent<AudioSource> ().Play ();
-        GameController.Current.ExitToWorldSelect();
+        //this.GetComponent<AudioSource> ().Play ();
+        //GameController.Current.ExitToWorldSelect();
+        GameController.Current.SoftWorldSelect();
     }
 
 }

@@ -17,7 +17,7 @@ public class AnimatePlatform : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void LateUpdate ()
 	{
 		
 		transform.position = Vector3.Lerp (startpos, target.position, t);

@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 02bc553f43a16d94fbe17c297a77a7c6
+timeCreated: 1436332638
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: playbutton 1_0
@@ -21,16 +23,20 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    filterMode: 1
     aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
@@ -48,11 +54,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 102
-        height: 68
+        y: 0
+        width: 95
+        height: 66
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 20, y: 20, z: 20, w: 20}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

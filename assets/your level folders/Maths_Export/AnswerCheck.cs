@@ -15,7 +15,7 @@ public class AnswerCheck : MonoBehaviour {
 	void Start () {
 	
 		rightAnswer = false;
-		levelControl = GameObject.FindGameObjectWithTag ("LevelControl");
+        levelControl = GameObject.FindGameObjectWithTag("LevelController");
 //		unknown_num = GameObject.FindGameObjectWithTag ("GameManager").GetComponent<GameManager>().ze_num;
 
 
@@ -50,7 +50,10 @@ public class AnswerCheck : MonoBehaviour {
 
 //			print ("GOT IT !!");
 			GameTimer.StopTimer();
-			levelControl.GetComponent<MathsLevelController>().CompleteLevel ();
+            //GameObject.FindObjectOfType<CompleteWindow>().GetComponent<CompleteWindow>().OnLevelComplete(GetComponent<PhysicsMoveableBank>().totalMoveables, GameTimer.GetTime(), true);
+            //GameObject.FindObjectOfType<CompleteWindow>().OnLevelComplete(999f, 999f, 999f);
+            GameObject.FindObjectOfType<MathsLevelController>().CompleteLevel();
+            //levelControl.GetComponent<MathsLevelController>().CompleteLevel ();
 
 		
 			

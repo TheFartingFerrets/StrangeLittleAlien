@@ -48,7 +48,7 @@ public class GameTimer : MonoBehaviour
     {
         StopTimer();
         //Send message to tell time is up
-        GameObject.FindGameObjectWithTag("LevelControl").SendMessage("OnGameTimerUp", SendMessageOptions.DontRequireReceiver);
+        GameObject.FindGameObjectWithTag("LevelController").SendMessage("OnGameTimerUp", SendMessageOptions.DontRequireReceiver);
     }
     public static float GetTime()
     {

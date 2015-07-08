@@ -100,8 +100,7 @@ public class PhysicsLevelController : MonoBehaviour
         GameTimer.StopTimer();
         LevelState = PhysicsLevelState.complete;
         StopRoller();
-
-        GameObject.FindObjectOfType<CompleteWindow>().OnLevelComplete(GetComponent<PhysicsMoveableBank>().totalMoveables, GetComponent<PhysicsMoveableBank>().totalMoveables, LevelTimer);
+		GameObject.FindObjectOfType<CompleteWindow> ().GetComponent<CompleteWindow> ().OnLevelComplete (GetComponent<PhysicsMoveableBank>().totalMoveables, GameTimer.GetTime(), true);
         //		GameData.Current.UpdateObjectives (2, true, true, false);
         //		GameData.Current.Save ();
     }

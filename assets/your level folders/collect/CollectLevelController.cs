@@ -23,6 +23,8 @@ public class CollectLevelController : MonoBehaviour
 
 	public GameObject alienPlayer;
 
+
+
 	void Start(){
 
 		alienPlayer = GameObject.FindGameObjectWithTag ("Player");
@@ -90,8 +92,11 @@ public class CollectLevelController : MonoBehaviour
 		GameTimer.StopTimer();
 		LevelState = CollectLevelState.complete;
 		StopPlayer();
+
+		bool y = (Counter.Amount >= MaxPickups) ? true : false;
 		
-		GameObject.FindObjectOfType<CompleteWindow>().SendMessage("OnLevelComplete");
+ 		//GameObject.FindObjectOfType<CompleteWindow>().SendMessage("OnLevelComplete");
+		GameObject.FindObjectOfType<CompleteWindow> ().GetComponent<CompleteWindow> ().OnLevelComplete (GameTimer.GetTime (), GameTimer.GetTime(), y);
 	}
 	
 	public void ResetLevel()

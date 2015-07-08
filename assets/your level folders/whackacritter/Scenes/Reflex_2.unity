@@ -1521,7 +1521,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 6
 --- !u!222 &482266251
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2257,7 +2257,8 @@ Prefab:
       propertyPath: Objective_3.IsComplete
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11435574, guid: a183f0ac32b2d5643a817737ce9f89aa, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: a183f0ac32b2d5643a817737ce9f89aa, type: 2}
   m_RootGameObject: {fileID: 920896839}
   m_IsPrefabParent: 0
@@ -2828,9 +2829,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 920896842}
-  - 114: {fileID: 920896841}
   - 114: {fileID: 920896840}
   - 82: {fileID: 920896843}
+  - 114: {fileID: 920896841}
   m_Layer: 0
   m_Name: LevelController
   m_TagString: LevelController
@@ -2865,13 +2866,12 @@ MonoBehaviour:
 --- !u!114 &920896841
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11435574, guid: a183f0ac32b2d5643a817737ce9f89aa,
-    type: 2}
-  m_PrefabInternal: {fileID: 757815567}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 920896839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c0bf1c70f09bfc4c9f5faf3992d1a0a, type: 3}
+  m_Script: {fileID: 11500000, guid: 865afe2bb6bc0464382f497c757b9804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &920896842
@@ -5947,7 +5947,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 0
 --- !u!222 &1717482629
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6003,7 +6003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e91723bb4e152f4ea92ddea696089c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CounterAmount: 0
+  CounterAmount: 6
   CounterText: 'Score :'
   tCounterText: {fileID: 748710198}
   tCounterAmount: {fileID: 482266250}

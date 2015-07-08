@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: a4b6529edc1cddd4a9b40734a143ea12
+timeCreated: 1436327353
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: MainBG_0
@@ -21,16 +23,20 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    filterMode: 1
     aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
@@ -47,12 +53,14 @@ TextureImporter:
     - name: MainBG_0
       rect:
         serializedVersion: 2
-        x: 99
+        x: 103
         y: 16
-        width: 1057
+        width: 1050
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 20, z: 20, w: 20}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
