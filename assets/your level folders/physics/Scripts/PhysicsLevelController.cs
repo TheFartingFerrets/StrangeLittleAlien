@@ -29,6 +29,7 @@ public class PhysicsLevelController : MonoBehaviour
 
     [SerializeField]
     private CanvasGroup ItemBankUI;
+    bool Ended = false;
 
     private void Awake()
     {
@@ -59,8 +60,9 @@ public class PhysicsLevelController : MonoBehaviour
     {
         float distance = Vector2.Distance(Roller.position, Target.position);
 
-        if (distance <= 1f)
+        if (distance <= 1f && !Ended)
         {
+            Ended = true;
             CompleteLevel();
         }
     }
