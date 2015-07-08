@@ -29,6 +29,7 @@ public class CollectLevelController : MonoBehaviour
 
 		alienPlayer = GameObject.FindGameObjectWithTag ("Player");
 		GameTimer.StartTimer();
+        Counter.SetCounter(0);
 	}
 	
 	private void Awake()
