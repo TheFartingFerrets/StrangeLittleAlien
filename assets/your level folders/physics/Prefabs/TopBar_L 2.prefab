@@ -79,7 +79,6 @@ GameObject:
   - 114: {fileID: 11436354}
   - 222: {fileID: 22224066}
   - 114: {fileID: 11462438}
-  - 114: {fileID: 11428680}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -213,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e91723bb4e152f4ea92ddea696089c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CounterAmount: 9
+  CounterAmount: 0
   CounterText: 'Coins:'
   tCounterText: {fileID: 11491878}
   tCounterAmount: {fileID: 11471314}
@@ -273,26 +272,6 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
---- !u!114 &11428680
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 134768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -405508275, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 10
-    m_Right: 10
-    m_Top: 10
-    m_Bottom: 10
-  m_ChildAlignment: 0
-  m_Spacing: 10
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
 --- !u!114 &11436354
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -333,7 +312,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 107
+  m_Text: 90
 --- !u!114 &11462438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -380,7 +359,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 9
+  m_Text: 0
 --- !u!114 &11490300
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -526,10 +505,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22493846}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 246.983398, y: -33.8935242}
+  m_SizeDelta: {x: 55, y: 67.7870026}
   m_Pivot: {x: 1, y: .5}
 --- !u!224 &22429326
 RectTransform:
@@ -600,10 +579,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22493846}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95.985611, y: -33.8935242}
+  m_SizeDelta: {x: 172, y: 67.7870026}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22486240
 RectTransform:

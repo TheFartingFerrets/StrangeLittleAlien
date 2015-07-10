@@ -23,10 +23,12 @@ public class CollectLevelController : MonoBehaviour
 
 	public GameObject alienPlayer;
 
+    public bool Ended = false;
+
 
 
 	void Start(){
-
+        Ended = false;
 		alienPlayer = GameObject.FindGameObjectWithTag ("Player");
 		GameTimer.StartTimer();
         Counter.SetCounter(0);
@@ -52,8 +54,9 @@ public class CollectLevelController : MonoBehaviour
 	
 	private void Update()
 	{
-		if( Counter.Amount >= MaxPickups)
+		if( Counter.Amount >= MaxPickups && Ended == false)
 		{
+            Ended = true;
 			CompleteLevel();
 		}
 	}

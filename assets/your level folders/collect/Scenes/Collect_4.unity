@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e91723bb4e152f4ea92ddea696089c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CounterAmount: 30
+  CounterAmount: 0
   CounterText: 'Coins:'
   tCounterText: {fileID: 357050167}
   tCounterAmount: {fileID: 1406789306}
@@ -3861,12 +3861,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ca81c9e829ffa841b10df6f3010cd60, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &725281356 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11413526, guid: 4ca81c9e829ffa841b10df6f3010cd60,
-    type: 2}
-  m_PrefabInternal: {fileID: 725281355}
-  m_Script: {fileID: 11500000, guid: a4424d595b2bc4d44a8ef51fbb9bfff7, type: 3}
 --- !u!224 &725281357 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22471716, guid: 4ca81c9e829ffa841b10df6f3010cd60,
@@ -8542,7 +8536,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 30
+  m_Text: 0
 --- !u!222 &1406789307
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9637,6 +9631,7 @@ MonoBehaviour:
   LevelTimer: 120
   MaxPickups: 30
   alienPlayer: {fileID: 1182595978}
+  Ended: 0
 --- !u!1 &1565939407
 GameObject:
   m_ObjectHideFlags: 0
@@ -11171,62 +11166,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
-    - target: {fileID: 22460706, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22460706, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22460706, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22460706, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22460706, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22460706, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22428948, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22428948, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22428948, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22428948, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22428948, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22428948, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11427136, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 725281356}
-    - target: {fileID: 11427136, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Toggle
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da07c5baaa2090448925f6b4aa905f81, type: 2}
   m_IsPrefabParent: 0
@@ -12684,7 +12623,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 65
+  m_Text: 90
 --- !u!222 &2077333530
 CanvasRenderer:
   m_ObjectHideFlags: 0

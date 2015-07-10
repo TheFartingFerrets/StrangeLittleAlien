@@ -29,7 +29,7 @@ public class GameData
     }
     public void Update(int world, int level, bool obj1, bool obj2, bool obj3)
     {
-        Debug.Log("Updating World: " + world);
+        Debug.Log("Updating World: " + world + " level " + level);
         switch(world)
         {
             case 0:

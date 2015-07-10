@@ -241,7 +241,6 @@ public class GameController : MonoBehaviour
 	public int GetWorld
 	{
 		get{
-            Debug.Log(WorldPrefix);
 			if (WorldPrefix == "Math" || WorldPrefix == "Maths"){
 				return 0;
 			}else if( WorldPrefix == "Physics"){

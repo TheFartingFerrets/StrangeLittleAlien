@@ -6,6 +6,9 @@ public class MathsLevelController : MonoBehaviour
     /*IMPORTANT*/
     GameController gController;
 
+    private bool Ended = false;
+
+
     //Find the GameController in the awake Functions
     //Set the Game Timer here as well.
     void Awake()
@@ -46,9 +49,14 @@ public class MathsLevelController : MonoBehaviour
 
     public void CompleteLevel()
     {
-		this.gameObject.GetComponent<AudioSource>().GetComponent<AudioSource>().Play ();
-        GameTimer.StopTimer();
-		GameObject.FindObjectOfType<CompleteWindow> ().GetComponent<CompleteWindow> ().OnLevelComplete (GameTimer.GetTime (), GameTimer.GetTime(), GameTimer.GetTime ());
+        if( Ended == false)
+        {
+            Ended = true;
+            this.gameObject.GetComponent<AudioSource>().GetComponent<AudioSource>().Play ();
+            GameTimer.StopTimer();
+		    GameObject.FindObjectOfType<CompleteWindow> ().GetComponent<CompleteWindow> ().OnLevelComplete (GameTimer.GetTime (), GameTimer.GetTime(), GameTimer.GetTime ());
+        }
+		
     }
 
 }
