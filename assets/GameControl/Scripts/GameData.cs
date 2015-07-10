@@ -29,19 +29,20 @@ public class GameData
     }
     public void Update(int world, int level, bool obj1, bool obj2, bool obj3)
     {
+        Debug.Log("Updating World: " + world);
         switch(world)
         {
             case 0:
                 CurrentData.MathsWorld[level].SetObjective(obj1, obj2, obj3);
                 break;
             case 1:
-			CurrentData.PhysicsWorld[level].SetObjective(obj1, obj2, obj3);
+			    CurrentData.PhysicsWorld[level].SetObjective(obj1, obj2, obj3);
                 break;
             case 2:
-			CurrentData.CollectWorld[level].SetObjective(obj1, obj2, obj3);
+			    CurrentData.CollectWorld[level].SetObjective(obj1, obj2, obj3);
                 break;
             case 3:
-			CurrentData.ReflexWorld[level].SetObjective(obj1, obj2, obj3);
+			    CurrentData.ReflexWorld[level].SetObjective(obj1, obj2, obj3);
                 break;
         }
         Save();

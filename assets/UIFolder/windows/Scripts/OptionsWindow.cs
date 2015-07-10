@@ -19,6 +19,7 @@ public class OptionsWindow : MonoBehaviour
     {
         Debug.Log("Quit App");
         this.GetComponent<Window>().Toggle(false);
-        GameController.Current.ExitToWorldSelect();
+        //GameController.Current.ExitToWorldSelect();
+        GameController.Current.QuitApp();
     }
 }

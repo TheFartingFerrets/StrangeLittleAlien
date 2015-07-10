@@ -24,6 +24,7 @@ public class CompleteWindow : MonoBehaviour
 		Obj2.ToggleStar(obj2);
 		Obj3.ToggleStar(obj3);
 
+        Debug.Log("Updaing world " + GameController.Current.GetWorld);
 		GameData.CurrentData.Update (GameController.Current.GetWorld, GameController.Current.LevelID, obj1, obj2, obj3);
         
         GameData.Save();
@@ -42,7 +43,7 @@ public class CompleteWindow : MonoBehaviour
 		Obj1.ToggleStar(obj1);
 		Obj2.ToggleStar(obj2);
 		Obj3.ToggleStar(obj3);
-		
+        Debug.Log("Updaing world " + GameController.Current.GetWorld);
 		GameData.CurrentData.Update (GameController.Current.GetWorld, GameController.Current.LevelID, obj1, obj2, obj3);
 		
 		GameData.Save();
