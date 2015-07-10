@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e91723bb4e152f4ea92ddea696089c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CounterAmount: 30
+  CounterAmount: 0
   CounterText: 'Coins:'
   tCounterText: {fileID: 357050167}
   tCounterAmount: {fileID: 1406789306}
@@ -2163,7 +2163,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b12d5963220e85e4fbabdf90cf9497ef, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 662b8042cf9e1e74cb04ae33b85afbe1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -8542,7 +8542,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 30
+  m_Text: 0
 --- !u!222 &1406789307
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12684,7 +12684,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 65
+  m_Text: 119
 --- !u!222 &2077333530
 CanvasRenderer:
   m_ObjectHideFlags: 0
