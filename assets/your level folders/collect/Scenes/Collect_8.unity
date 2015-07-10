@@ -338,7 +338,7 @@ Transform:
   m_Children:
   - {fileID: 1706102407}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 62
+  m_RootOrder: 64
 --- !u!136 &27399584
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -349,10 +349,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &27399585
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -526,7 +526,7 @@ Transform:
   m_Children:
   - {fileID: 1186981232}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 39
+  m_RootOrder: 41
 --- !u!136 &60988955
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -537,10 +537,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &60988956
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -818,10 +818,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &78599571
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1188,10 +1188,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &118544097
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1374,7 +1374,7 @@ Transform:
   m_Children:
   - {fileID: 754099806}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 30
+  m_RootOrder: 31
 --- !u!136 &142361145
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1385,10 +1385,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &142361146
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1536,7 +1536,7 @@ Transform:
   m_Children:
   - {fileID: 2023579354}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 41
+  m_RootOrder: 43
 --- !u!136 &148650229
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1547,10 +1547,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &148650230
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2001,7 +2001,7 @@ Transform:
   m_Children:
   - {fileID: 976770852}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 50
+  m_RootOrder: 52
 --- !u!136 &232382923
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2012,10 +2012,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &232382924
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2053,7 +2053,7 @@ Transform:
   m_Children:
   - {fileID: 713895383}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 42
+  m_RootOrder: 44
 --- !u!136 &243397550
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2064,10 +2064,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &243397551
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2427,7 +2427,7 @@ Transform:
   m_Children:
   - {fileID: 921662071}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 56
+  m_RootOrder: 58
 --- !u!136 &301601481
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2438,10 +2438,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &301601482
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2860,7 +2860,7 @@ Transform:
   m_Children:
   - {fileID: 937884707}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 46
+  m_RootOrder: 48
 --- !u!136 &319336083
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2871,10 +2871,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &319336084
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2923,10 +2923,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &342873287
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2964,7 +2964,7 @@ Transform:
   m_Children:
   - {fileID: 1548206798}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 15
+  m_RootOrder: 16
 --- !u!136 &361304955
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2975,10 +2975,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &361304956
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3648,7 +3648,7 @@ Transform:
   m_Children:
   - {fileID: 1137637017}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 52
+  m_RootOrder: 54
 --- !u!136 &454254327
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3659,10 +3659,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &454254328
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3831,7 +3831,7 @@ Transform:
   m_Children:
   - {fileID: 1456389314}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 65
+  m_RootOrder: 67
 --- !u!136 &513686709
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3842,10 +3842,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .100000001}
 --- !u!33 &513686710
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3946,7 +3946,7 @@ Transform:
   m_Children:
   - {fileID: 866608178}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 17
+  m_RootOrder: 18
 --- !u!136 &532825759
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3957,10 +3957,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &532825760
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4324,10 +4324,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &623136429
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4348,7 +4348,7 @@ Transform:
   m_Children:
   - {fileID: 105050703}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 21
+  m_RootOrder: 22
 --- !u!1 &626792780
 GameObject:
   m_ObjectHideFlags: 0
@@ -4378,7 +4378,7 @@ Transform:
   m_Children:
   - {fileID: 304638528}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 25
+  m_RootOrder: 26
 --- !u!136 &626792782
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4389,10 +4389,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &626792783
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4441,10 +4441,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &631300853
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4477,12 +4477,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 665894923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.30000019, y: 0, z: -32.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 22.848381, y: 1.01999998, z: .591859818}
+  m_LocalScale: {x: .467344999, y: .0258980002, z: .383635104}
   m_Children:
   - {fileID: 1269293726}
-  m_Father: {fileID: 2004659489}
-  m_RootOrder: 1
+  m_Father: {fileID: 1263032249}
+  m_RootOrder: 36
 --- !u!136 &665894925
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4493,10 +4493,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .819999993}
 --- !u!33 &665894926
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4805,7 +4805,7 @@ Transform:
   m_Children:
   - {fileID: 1859094560}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 54
+  m_RootOrder: 56
 --- !u!136 &711090408
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4816,10 +4816,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &711090409
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4925,7 +4925,7 @@ Transform:
   m_Children:
   - {fileID: 133583066}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 63
+  m_RootOrder: 65
 --- !u!136 &716488640
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4936,10 +4936,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &716488641
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5617,7 +5617,7 @@ Transform:
   m_Children:
   - {fileID: 1091433707}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 33
+  m_RootOrder: 34
 --- !u!136 &779525373
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5628,10 +5628,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &779525374
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6058,10 +6058,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &836163954
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6264,7 +6264,7 @@ Transform:
   m_Children:
   - {fileID: 1577499569}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 59
+  m_RootOrder: 61
 --- !u!136 &869370684
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6275,10 +6275,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &869370685
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6460,7 +6460,7 @@ Transform:
   m_Children:
   - {fileID: 170269237}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 16
+  m_RootOrder: 17
 --- !u!136 &917826761
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6471,10 +6471,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: 1.99000001}
 --- !u!33 &917826762
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6580,7 +6580,7 @@ Transform:
   m_Children:
   - {fileID: 309774101}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 53
+  m_RootOrder: 55
 --- !u!136 &925265295
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6591,10 +6591,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &925265296
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6886,7 +6886,7 @@ Transform:
   m_Children:
   - {fileID: 759026946}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 20
+  m_RootOrder: 21
 --- !u!136 &951421860
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6897,10 +6897,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &951421861
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7070,7 +7070,7 @@ Transform:
   m_Children:
   - {fileID: 12285246}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 32
+  m_RootOrder: 33
 --- !u!136 &973470060
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7081,10 +7081,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &973470061
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7190,7 +7190,7 @@ Transform:
   m_Children:
   - {fileID: 1445449603}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 58
+  m_RootOrder: 60
 --- !u!136 &996497087
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7201,10 +7201,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &996497088
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7297,7 +7297,7 @@ Transform:
   m_Children:
   - {fileID: 723838085}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 19
+  m_RootOrder: 20
 --- !u!136 &1022179894
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7308,10 +7308,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1022179895
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7349,7 +7349,7 @@ Transform:
   m_Children:
   - {fileID: 757525702}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 35
+  m_RootOrder: 37
 --- !u!136 &1023328812
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7360,10 +7360,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1023328813
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7412,10 +7412,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1048717655
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7712,7 +7712,7 @@ Transform:
   m_Children:
   - {fileID: 592133657}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 51
+  m_RootOrder: 53
 --- !u!136 &1092634771
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7723,10 +7723,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1092634772
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7992,10 +7992,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1118700299
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8032,9 +8032,8 @@ Transform:
   m_LocalScale: {x: .467344999, y: .0258980002, z: .383635104}
   m_Children:
   - {fileID: 1327595870}
-  - {fileID: 1296357211}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 14
+  m_RootOrder: 15
 --- !u!136 &1125732985
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8045,10 +8044,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1125732986
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8086,7 +8085,7 @@ Transform:
   m_Children:
   - {fileID: 1257639060}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 23
+  m_RootOrder: 24
 --- !u!136 &1127723697
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8097,10 +8096,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1127723698
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8346,7 +8345,7 @@ Transform:
   m_Children:
   - {fileID: 409917894}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 61
+  m_RootOrder: 63
 --- !u!136 &1171442976
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8357,10 +8356,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1171442977
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8906,10 +8905,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1251554936
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8947,7 +8946,7 @@ Transform:
   m_Children:
   - {fileID: 1290518960}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 24
+  m_RootOrder: 25
 --- !u!136 &1256131984
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8958,10 +8957,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1256131985
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9077,6 +9076,7 @@ Transform:
   - {fileID: 1504592300}
   - {fileID: 1907779471}
   - {fileID: 1048717653}
+  - {fileID: 1296357211}
   - {fileID: 1125732984}
   - {fileID: 361304954}
   - {fileID: 917826760}
@@ -9098,6 +9098,7 @@ Transform:
   - {fileID: 973470059}
   - {fileID: 779525372}
   - {fileID: 1352970652}
+  - {fileID: 665894924}
   - {fileID: 1023328811}
   - {fileID: 2004659489}
   - {fileID: 1528890232}
@@ -9367,7 +9368,7 @@ Transform:
   m_Children:
   - {fileID: 581610364}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 60
+  m_RootOrder: 62
 --- !u!136 &1281034376
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9378,10 +9379,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: 1.74000001}
 --- !u!33 &1281034377
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9482,12 +9483,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1296357210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.30000019, y: 0, z: -32.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 16.1883812, y: 1.01999998, z: 1.48185921}
+  m_LocalScale: {x: .467344999, y: .0258980002, z: .383635104}
   m_Children:
   - {fileID: 1205108090}
-  m_Father: {fileID: 1125732984}
-  m_RootOrder: 1
+  m_Father: {fileID: 1263032249}
+  m_RootOrder: 14
 --- !u!136 &1296357212
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9498,10 +9499,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .610000014}
 --- !u!33 &1296357213
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9539,7 +9540,7 @@ Transform:
   m_Children:
   - {fileID: 1332917735}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 29
+  m_RootOrder: 30
 --- !u!136 &1305583419
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9550,10 +9551,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1305583420
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9659,7 +9660,7 @@ Transform:
   m_Children:
   - {fileID: 1462485295}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 43
+  m_RootOrder: 45
 --- !u!136 &1313118908
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9670,10 +9671,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1313118909
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9794,7 +9795,7 @@ Transform:
   - {fileID: 2136946371}
   - {fileID: 374783313}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &1325064580
 GameObject:
   m_ObjectHideFlags: 0
@@ -9966,10 +9967,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1330051490
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10130,7 +10131,7 @@ Transform:
   m_Children:
   - {fileID: 397744787}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 64
+  m_RootOrder: 66
 --- !u!136 &1347190115
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10141,10 +10142,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1347190116
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10182,7 +10183,7 @@ Transform:
   m_Children:
   - {fileID: 2121406281}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 34
+  m_RootOrder: 35
 --- !u!136 &1352970653
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10193,10 +10194,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1352970654
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10442,7 +10443,7 @@ Transform:
   m_Children:
   - {fileID: 947142145}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 18
+  m_RootOrder: 19
 --- !u!136 &1429197372
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10453,10 +10454,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1429197373
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10617,7 +10618,7 @@ Transform:
   m_Children:
   - {fileID: 1369186256}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 28
+  m_RootOrder: 29
 --- !u!136 &1449925437
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10628,10 +10629,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1449925438
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10882,7 +10883,7 @@ Transform:
   m_Children:
   - {fileID: 2028506377}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 44
+  m_RootOrder: 46
 --- !u!136 &1494345545
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10893,10 +10894,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1494345546
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10945,10 +10946,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1504592302
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11063,7 +11064,7 @@ Transform:
   m_Children:
   - {fileID: 1764899556}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 37
+  m_RootOrder: 39
 --- !u!136 &1528890233
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11074,10 +11075,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1528890234
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11342,7 +11343,7 @@ Transform:
   m_Children:
   - {fileID: 1085823796}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 22
+  m_RootOrder: 23
 --- !u!136 &1571563745
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11353,10 +11354,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .00999999978}
 --- !u!33 &1571563746
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11473,10 +11474,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1579572085
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11514,7 +11515,7 @@ Transform:
   m_Children:
   - {fileID: 1696648732}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 57
+  m_RootOrder: 59
 --- !u!136 &1583487602
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11525,10 +11526,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1583487603
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11634,7 +11635,7 @@ Transform:
   m_Children:
   - {fileID: 1913398974}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 49
+  m_RootOrder: 51
 --- !u!136 &1597690935
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11645,10 +11646,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1597690936
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11686,7 +11687,7 @@ Transform:
   m_Children:
   - {fileID: 895582744}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 48
+  m_RootOrder: 50
 --- !u!136 &1611832046
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11697,10 +11698,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1611832047
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11749,10 +11750,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1639093234
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12523,7 +12524,7 @@ Transform:
   m_Children:
   - {fileID: 2134504121}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 55
+  m_RootOrder: 57
 --- !u!136 &1769832320
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12534,10 +12535,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1769832321
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12658,7 +12659,7 @@ Transform:
   m_Children:
   - {fileID: 1190076054}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 27
+  m_RootOrder: 28
 --- !u!136 &1816007854
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12669,10 +12670,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1816007855
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12776,10 +12777,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1835382233
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12940,7 +12941,7 @@ Transform:
   m_Children:
   - {fileID: 1249558983}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 47
+  m_RootOrder: 49
 --- !u!136 &1863983617
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12951,10 +12952,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1863983618
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12992,7 +12993,7 @@ Transform:
   m_Children:
   - {fileID: 1755902132}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 45
+  m_RootOrder: 47
 --- !u!136 &1883187790
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13003,10 +13004,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1883187791
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13123,10 +13124,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1907779473
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13453,7 +13454,7 @@ Transform:
   m_Children:
   - {fileID: 182831928}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 26
+  m_RootOrder: 27
 --- !u!136 &1949934096
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13464,10 +13465,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1949934097
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13505,7 +13506,7 @@ Transform:
   m_Children:
   - {fileID: 1887243442}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 31
+  m_RootOrder: 32
 --- !u!136 &1954553741
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13516,10 +13517,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &1954553742
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13611,9 +13612,8 @@ Transform:
   m_LocalScale: {x: .467344999, y: .0258980002, z: .383635104}
   m_Children:
   - {fileID: 154872653}
-  - {fileID: 665894924}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 36
+  m_RootOrder: 38
 --- !u!136 &2004659490
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13624,10 +13624,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &2004659491
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13869,7 +13869,7 @@ Transform:
   m_Children:
   - {fileID: 1128692871}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 38
+  m_RootOrder: 40
 --- !u!136 &2032502143
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13880,10 +13880,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &2032502144
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14399,7 +14399,7 @@ Transform:
   m_Children:
   - {fileID: 57541507}
   m_Father: {fileID: 1263032249}
-  m_RootOrder: 40
+  m_RootOrder: 42
 --- !u!136 &2121095261
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14410,10 +14410,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.60000002
+  m_Radius: 2.45000005
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: .0399999991}
+  m_Center: {x: 0, y: 0, z: .689999998}
 --- !u!33 &2121095262
 MeshFilter:
   m_ObjectHideFlags: 0
